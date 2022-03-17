@@ -1,20 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TestGit</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <h1>10 Lệnh Git cơ bản</h1>
-    <li>1. Git Init
-        Create a local Repo in your own Pc
-        => git init
-        
-        Link the local repository to an empty GitHub repository
-        => git remote add origin [GitHub_Repo_URL]
-        </li>
-</body>
+    <li>
+      1. Git Init Create a local Repo in your own Pc => git init Link the local
+      repository to an empty GitHub repository => git remote add origin
+      [GitHub_Repo_URL]
+    </li>
+
+    <li>
+      2. Git Clone Clone (tải) a Remote Repo on GitHub to Local PC => git clone
+      [GitHub_Repo_REPO]
+    </li>
+
+    <li>3. Git Add Add Changes to Staging Area => git add file</li>
+
+    <li>
+      4. Git Commit Sbapshots (Ảnh chụp) the file in preparation for versioning
+      => git commnit -m "descriptive message" Để thay đổi đoạn mô tả => git
+      commit --amend -m "amend descriptive message"
+    </li>
+
+    <li>
+      5. Git Push Uploads all local branch commits to GitHub => git push origin
+      [branch-name]
+    </li>
+  </body>
 </html>
